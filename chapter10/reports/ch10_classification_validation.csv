@@ -1,0 +1,9 @@
+Contract,Status,Details
+binary_target_contract,[PASS],Target is binary (0/1)
+forbidden_feature_overlap,[PASS],Overlaps: []
+strict_merge_contract,[PASS],No unexpected NaNs in merged features
+all_splits_have_two_classes,[PASS],All splits contain both class 0 and 1
+selected_model_from_validation,[PASS],Model selected via Val: Random Forest
+selected_threshold_from_validation,[PASS],Threshold selected via Val: 0.1
+public_prediction_privacy,[PASS],Banned identifier columns removed
+test_rows_for_metrics,[PASS],Test evaluation rows: 60

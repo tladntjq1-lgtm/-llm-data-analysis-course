@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score
+Dummy (Most Frequent),0.7833,0.0,0.0,0.0
+Logistic Regression,0.75,0.0,0.0,0.0
+Random Forest,0.75,0.25,0.0769,0.1176
