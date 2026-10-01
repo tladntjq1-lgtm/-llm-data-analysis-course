@@ -1,0 +1,9 @@
+﻿step,execution_status,executed_at,provider,model,prompt_version,purpose,input_summary,response_summary,validation_result,revision_note,final_use
+데이터 구조 설명,not_executed,,,,2.0,,,,,,not_used
+분석 질문 생성,executed,2026-10-01 (KST),Anthropic (Claude Code 데스크톱 앱 대화),claude-opus-5-5,2.0,현재 구조로 계산 가능한 EDA 질문 후보 설계,사람이 검토한 Safe Context(구조·결측·고유값 수)만 입력. 원본 행·식별자 값·경로 없음,EDA 질문 10개(월별·카테고리·결제수단·도시·연령 등) + 추가 데이터 필요 질문 2개,"컬럼 존재 OK, line_total OK, refunded 존재·병합 미매칭(2/26/2)·미래 날짜 2건·가입 전 주문 32명 발견","completed만 금액 기준, 미매칭 금액 별도 보고, 미래 날짜 분리, 가입~첫 주문 기간·원인 질문은 보류",partial
+전처리 계획,not_executed,,,,2.0,,,,,,not_used
+시각화 설계,not_executed,,,,2.0,,,,,,not_used
+회귀 코드 검토,not_executed,,,,2.0,,,,,,not_used
+분류 코드 검토,not_executed,,,,2.0,,,,,,not_used
+결과 해석,not_executed,,,,2.0,,,,,,not_used
+외부 문서 검토,not_executed,,,,2.0,,,,,,not_used
